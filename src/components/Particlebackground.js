@@ -5,8 +5,7 @@ import particleConfig from './particle_confi'
 export default function Particlebackground() {
     return (
         <div>
-           <Particles params = {particleConfig}></Particles>
-            
+           <Particles params = {particleConfig}></Particles>   
         </div>
     )
 }
