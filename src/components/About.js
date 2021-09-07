@@ -1,9 +1,10 @@
 import React from 'react'
+import './about.css'
 
 export default function About() {
     return (
         <div>
-            <div class="container" id="about" height="100vh">
+            <div className="container" id="about" height="100vh">
                     <span>
                     <h3>About Me</h3>
                     </span>
@@ -35,19 +36,19 @@ export default function About() {
                         <br />
                     </p>
                     <p align="center">
-                        <a class="contact-icon" href="socialLinks.github"  target="_blank" title="GitHub" >
+                        <a className="contact-icon" href="socialLinks.github"  target="_blank" title="GitHub" >
                         <img height="32" src="../assets/github.svg" />
                         </a>
-                        <a class="contact-icon" href="socialLinks.linkedin" target="_blank" title="LinkedIn">
+                        <a className="contact-icon" href="socialLinks.linkedin" target="_blank" title="LinkedIn">
                         <img height="32" src="../assets/linkedin.svg" />
                         </a>
-                        <a class="contact-icon" href="socialLinks.mail" target="_blank" title="Gmail">
+                        <a className="contact-icon" href="socialLinks.mail" target="_blank" title="Gmail">
                         <img height="32" src="../assets/mail.svg" />
                         </a>
-                        <a class="contact-icon" href="socialLinks.whatsapp" target="_blank" title="Whatsapp">
+                        <a className="contact-icon" href="socialLinks.whatsapp" target="_blank" title="Whatsapp">
                         <img height="32" src="../assets/message.svg" />
                         </a>
-                        <a class="contact-icon" href="socialLinks.instagram" target="_blank" title="Instagram" >
+                        <a className="contact-icon" href="socialLinks.instagram" target="_blank" title="Instagram" >
                         <img height="32" src="../assets/instagram.svg" />
                         </a>
                     </p>

@@ -3,8 +3,8 @@ import React from 'react'
 export default function Footer() {
     return (
         <div>
-            <div class="footer" height="100px">
-               <div class="container">
+            <div  className="footer" height="100px">
+               <div className="container">
                     <br />
                     Made with ❤️ by
                     <a href="http://github.com/ayushkx" style="color:#ffffff"

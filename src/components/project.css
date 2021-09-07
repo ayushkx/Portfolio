@@ -1,0 +1,27 @@
+#projects {
+    margin: auto auto 150px auto;
+  }
+  .card {
+    margin: 15px 15px 15px 15px !important;
+    border: 1px solid #000000;
+  }
+  .card:hover {
+    margin: 15px 15px 15px 15px !important;
+    border: 1px solid #000000;
+    box-shadow: 6px 7px 10px 0px #e0dede;
+    transition: all ease 0.5s;
+  }
+  hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: #ff0000;
+    height: 1px;
+  }
+  .card-title {
+    font-family: 'Futura';
+  }
+  .card-text {
+    text-align: justify;
+  }
