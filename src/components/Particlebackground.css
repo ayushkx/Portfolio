@@ -1,0 +1,26 @@
+@media (max-width:728px){
+    .particleBackground{
+        height: 250px;
+    }
+    #tsparticles{
+        height: 250px;
+    }
+}
+
+@media (min-width: 729px) and (max-width: 1200px){
+    .particleBackground{
+        height: 300px;
+    }
+    #tsparticles{
+        height: 300px;
+    }
+}
+
+@media (min-width:1200px){
+    .particleBackground{
+        height: 500px;
+    }
+    #tsparticles{
+        height: 500px;
+    }
+}

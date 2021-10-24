@@ -1,34 +1,66 @@
-.about {
-  background-color: white;
+.secondSecDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  color: white;
 }
-.contact-icon {
-    padding: 0px 8px;
+
+.linkedin,.git,.ins,.gmail{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.linkedin-icon, .ins-icon, .git-icon, .gmail-icon{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.linkedin-icon:hover, .ins-icon:hover, .git-icon:hover, .gmail-icon:hover{
+  color: #88FFF7;
+}
+
+.aboutHeading{
+  margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 768px){
+ 
+
+  .introductionDiv {
+    width: 300px;
   }
-  #about {
-    margin: 50px auto 150px auto;
+}
+
+@media (max-width: 1200px) and (min-width: 769px){
+  .introductionDiv{
+    width: 400px;
   }
-  body {
-    color: #000000;
+  .introductionDiv{
+    margin-right: 40px;
+    margin-left: 20px;
   }
-  h3 {
-    font-family: 'Audrey-Normal', monospace;
-    font-size: 40px !important;
-    color: #494949;
-    font-weight: 200;
+  
+  .projectDiv{
+    margin-left: 40px;
+    margin-right: 20px;
   }
-  #readme-md {
-    font-family: 'Futura';
-    font-size: 20px;
+}
+
+@media (min-width: 1201px){
+  .introductionDiv{
+    width: 39%;
   }
-  @media (max-width: 768px) {
-    #readme-md {
-      font-family: 'Futura';
-      font-size: 16px;
-    }
-    h3 {
-      font-family: 'Audrey-Normal', monospace;
-      font-size: 28px !important;
-      color: #494949;
-      font-weight: 200;
-    }
+  .introductionDiv{
+    margin-right: 40px;
   }
+  
+  .projectDiv{
+    margin-left: 40px;
+  }
+}
+
+
+

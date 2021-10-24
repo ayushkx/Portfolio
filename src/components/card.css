@@ -1,0 +1,79 @@
+.git-icon, .link-icon{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.git-icon:hover, .link-icon:hover{
+    color: #88FFF7;
+}
+
+.projectCardDiv{
+    margin: 20px 0;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 1px grey;
+}
+
+
+
+.accordion-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-sign, .card-title{
+    display: inline-block;
+}
+
+.sign{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.active{
+    color: #7DEDFF;
+}
+
+.card-titleDiv{
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media (max-width: 768px){
+    .card-text{
+        font-size: 10px;
+        width: 270px;
+    }
+
+    .accordion-item{
+        width: 300px;
+    }
+
+    .projectCardDiv{
+        padding: 10px;
+    }
+  }
+
+  
+  @media (max-width: 1200px)and (min-width: 769px) {
+    .card-text{
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .accordion-item{
+        width: 450px;
+    }
+  }
+  
+  @media (min-width: 1201px){
+    .card-text{
+        font-size: 15px;
+        width: 450px;
+    }
+
+    .accordion-item{
+        width: 500px;
+    }
+  }

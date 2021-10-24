@@ -1,0 +1,32 @@
+.navDiv{
+    background: transparent;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+}
+
+.navDiv ul{
+    margin: 0;
+}
+
+.navLi{
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+.navLi a{
+    text-decoration: none;
+    color: grey;
+    z-index: 9999;
+}
+
+.navLi a:hover{
+    color:#88FFF7;
+}
+
+@media (max-width: 728px){
+    .navDiv{
+        display: none;
+    }
+}
