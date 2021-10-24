@@ -25,3 +25,14 @@
   .card-text {
     text-align: justify;
   }
+
+
+  /* testing */
+
+  .accordion-title{
+    color: white;
+  }
+
+  .accordion-item{
+    background-color: black;
+  }

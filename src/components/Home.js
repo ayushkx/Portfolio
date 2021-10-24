@@ -1,17 +1,23 @@
-import React from 'react'
-import './home.css'
+import React from "react";
+import "./home.css";
 
 export default function home() {
-    return (
-        <div>
-            <div id="landing-intro">
-              <div >Hi, I'm</div>
-              <div id="my-name">Ayush kushwaha</div>
-              <div id="sub-intro">
-                  Student | Developer | Tech Enthusiast
-              </div>
-              <span style={{fontSize: '1.5rem'}}>Welcome to my website!</span>
-            </div>   
+  return (
+    <div id="home">
+      <div id="landing-intro">
+        <div id="Intro">
+          <p className="p">Hi, I'm</p>
         </div>
-    )
+        <div id="my-name">Aishwary Bhadauriya</div>
+        <div id="sub-intro">
+          <p className="p">
+            Student | Developer | Tech Enthusiast | Competitive Programmer
+          </p>
+        </div>
+        <span id="Welcome">
+          <p className="p">Welcome to my website!</p>
+        </span>
+      </div>
+    </div>
+  );
 }

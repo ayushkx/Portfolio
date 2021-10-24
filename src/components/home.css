@@ -1,44 +1,59 @@
+#landing-intro{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  position: absolute;
+}
 
-#landing-intro {
-    position: absolute;
-    top: 50vh;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
+#Intro, #Welcome{
+  color: #817777;
+}
+
+#sub-intro{
+  color: #EDEDED;
+}
+
+#my-name{
+  color: white;
+}
+
+@media (min-width:1200px){
+  #landing-intro{
+    top: 20%;
+    left: 30%;
+  }
+
+
+
+  #my-name{
     font-size: 3rem;
-    font-weight: 500;
-    font-family: 'Futura', monospace;
-    text-transform: uppercase;
   }
-  #sub-intro {
-    font-size: 20px;
-    font-weight: 100;
-    opacity: 0.75;
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+  #landing-intro{
+    top: 50px;
+    left: 25%;
   }
-  #my-name {
-    font-size: 5.5rem;
-    font-weight: 900;
+
+
+  #my-name{
+    font-size: 3rem;
   }
-  @media (max-width: 768px) {
-    #my-name {
-      font-size: 4.5rem;
-      font-weight: 900;
-    }
-    #landing-intro {
-      position: absolute;
-      top: 50vh;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #ffffff;
-      font-size: 2.2rem;
-      font-weight: 400;
-      font-family: 'Futura', monospace;
-      text-transform: uppercase;
-    }
-    #sub-intro {
-      font-size: 18px;
-      font-weight: 100;
-      opacity: 0.75;
-      width: 350px !important;
-    }
+}
+
+@media (max-width:768px){
+  #landing-intro{
+    top: 10%;
+    left: 20%;
+    max-width: 17rem;
   }
+
+
+
+  #my-name{
+    font-size: 1.5rem;
+  }
+}
+
