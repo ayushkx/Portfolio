@@ -1,10 +1,9 @@
 import React from 'react'
-import './project.css'
+import './card.css'
 
 export default function Cards(props) {
     return (
-        <div>
-            <div>
+            <div className="card">
                     <p>
                     <img src={`../assets/${props.img}.jpg`} style={{borderRadius: '50%'}} height="150px" width="150px" alt="project"/>
                     </p>
@@ -20,7 +19,5 @@ export default function Cards(props) {
                     </a>
                     </span>
                 </div>                     
-
-        </div>
     )
 }
