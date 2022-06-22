@@ -8,8 +8,8 @@ function createCard(project) {
          name ={project.name}
         description = {project.description}
         repolink = {project.repolink}
-                    deploylink = {project.deploylink}
-                    img = {project.id}
+        deploylink = {project.deploylink}
+        img = {project.id}
      />
 }
 

@@ -10,14 +10,14 @@ const projects =[
         "name":"SignUp Site",
         "description":"A SignUp site made using html , Css , Node.JS",
         "repolink":"https://github.com/ayushkx/newsletter_signup",
-        "deploylink":"#"
+        "deploylink":"https://ancient-castle-99320.herokuapp.com/"
     },
     {
         id : 3,
         "name":"ToDo list",
         "description":"A todo list made using React.js",
         "repolink":"https://github.com/ayushkx/To-do-list",
-        "deploylink":"#"
+        "deploylink":"https://lucent-bublanina-7f234e.netlify.app/"
     },
     {
         id : 4,
@@ -31,7 +31,7 @@ const projects =[
         "name":"Portfolio",
         "description":"My website made with React.JS",
         "repolink":"https://github.com/ayushkx/Portfolio",
-        "deploylink":""
+        "deploylink":"#"
     },
     {
         id : 6,

@@ -11,10 +11,10 @@ export default function Cards(props) {
                     <hr />
                     <p className="card-text">{props.description}</p>
                     <span className="mt-auto">
-                    <a className="github-icon" href={`${props.repolink}`} target="_blank" title="Repository" style={{margin: '10px 15px 10px 15px'}} >
+                    <a className="github-icon" href={`${props.repolink}`}  title="Repository" style={{margin: '10px 15px 10px 15px'}} >
                         <img height="40" src="../assets/github.svg" alt="github"/>
                     </a>
-                    <a className="github-icon" href={`${props.deployLink}`} target="_blank" title="Repository" style={{margin: '10px 15px 10px 15px'}} >
+                    <a className="github-icon" href={`${props.deploylsink}`}  title="Deploy link" style={{margin: '10px 15px 10px 15px'}} >
                         <img height="32" src="../assets/link.svg" alt="link"/>
                     </a>
                     </span>

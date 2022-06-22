@@ -12,8 +12,7 @@ export default function Footer() {
                     <br />
                     <hr />
                     To use this template as your website, go to this 
-                    <a
-                    href="#" style={{color: 'white'}}><strong> repository</strong></a >, download the source code and change relevant information!
+                    <a href="https://github.com/ayushkx/Portfolio" style={{color: 'white'}}><strong> repository</strong></a >, download the source code and change relevant information!
                     <br />
                     <br />
                 </div>
