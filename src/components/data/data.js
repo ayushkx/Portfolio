@@ -3,7 +3,7 @@ const projects =[
         "name":"Keeper App",
         "description":"A Note keeping App made with React.JS",
         "repolink":"https://github.com/ayushkx/keeper-app",
-        "deploylink":"#"
+        "deploylink":"https://cheerful-halva-8bbc98.netlify.app/"
     },
     {
         id : 2,
