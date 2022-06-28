@@ -1,27 +1,47 @@
-#projects {
-    margin: auto auto 150px auto;
-  }
-  .card {
-    margin: 15px 15px 15px 15px !important;
-    border: 1px solid #000000;
-  }
-  .card:hover {
-    margin: 15px 15px 15px 15px !important;
-    border: 1px solid #000000;
-    box-shadow: 6px 7px 10px 0px #e0dede;
-    transition: all ease 0.5s;
-  }
-  hr {
-    border: 0;
-    clear: both;
-    display: block;
-    margin: 0 5% 0 5%;
-    background-color: #ff0000;
-    height: 1px;
-  }
-  .card-title {
-    font-family: 'Futura';
-  }
-  .card-text {
-    text-align: justify;
-  }
+ 
+.card-container{
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.3s;
+  animation: ease-in;
+}
+
+.card-container:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container img{
+  overflow: hidden;
+  height: 200px;
+}
+
+.card-content{
+  margin: 1rem;
+  margin-top: 0.5rem;
+ }
+
+ h3,p{
+  margin: 0;
+  padding: 0;
+ }
+
+ hr {
+  border: 0;
+  clear: both;
+  display: block;
+  margin: 0 5% 0 5%;
+  background-color: #ff0000;
+  height: 1px;
+}
+
+.card-title{
+  margin-bottom: 0.5rem;
+  font-family: 'Futura';
+}
+
+.card-text {
+  text-align: justify;
+}
+

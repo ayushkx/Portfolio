@@ -3,21 +3,21 @@ import './card.css'
 
 export default function Cards(props) {
     return (
-            <div className="card">
-                    <p>
-                    <img src={`../assets/${props.name}.png`} style={{borderRadius: '50%'}} height="150px" width="150px" alt="project"/>
-                    </p>
-                    <h4 className="card-title">{props.name}</h4>
+            <div className="card-container">
+                    <div className='image-container'>
+                    <img src={`../assets/${props.name}.png`} alt="project"/>
+                    </div>
+                    <div className='card-content'>
+                    <h3 className="card-title">{props.name}</h3>
                     <hr />
                     <p className="card-text">{props.description}</p>
-                    <span className="mt-auto">
-                    <a className="github-icon" href={`${props.repolink}`}  title="Repository" style={{margin: '10px 15px 10px 15px'}} >
+                    </div>
+                    <a className="btn" href={`${props.repolink}`}  title="Repository" style={{margin: '10px 15px 10px 15px'}} >
                         <img height="40" src="../assets/github.svg" alt="github"/>
                     </a>
-                    <a className="github-icon" href={`${props.deploylink}`}  title="Deploy link" style={{margin: '10px 15px 10px 15px'}} >
+                    <a className="btn" href={`${props.deploylink}`}  title="Deploy link" style={{margin: '10px 15px 10px 15px'}} >
                         <img height="32" src="../assets/link.svg" alt="link"/>
                     </a>
-                    </span>
                 </div>                     
     )
 }
