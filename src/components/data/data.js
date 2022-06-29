@@ -31,7 +31,7 @@ const projects =[
         "name":"Portfolio",
         "description":"My website made with React.JS",
         "repolink":"https://github.com/ayushkx/Portfolio",
-        "deploylink":"#"
+        "deploylink":"https://famous-mandazi-60d575.netlify.app/"
     },
     {
         id : 6,

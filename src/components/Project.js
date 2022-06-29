@@ -20,6 +20,7 @@ export default function Project() {
             <span>
                 <h3 style={{textAlign: 'center' }}>Projects</h3>
             </span>
+            <hr/>
             <div className="flex-container ">
                    {projects.map(createCard)}
             </div>
