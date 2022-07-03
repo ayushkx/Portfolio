@@ -6,7 +6,7 @@ export default function home() {
         <div>
             <div id="landing-intro">
               <div >Hi, I'm</div>
-              <div id="my-name">Ayush kushwaha</div>
+              <div id="my-name"><span className='name'>Ayush</span> kushwaha</div>
               <div id="sub-intro">
                   Student | Developer | Tech Enthusiast
               </div>

@@ -13,7 +13,7 @@ function App() {
           <Navbar name="Ayush kushwaha" about='About'/>
           <Home/>
           <Particlebackground/>
-          <div style={{backgroundColor: 'white'}}>
+          <div style={{backgroundColor: '#ebf1fd'}}>
             <About/>
             <Project/>
           </div>

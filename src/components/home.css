@@ -1,14 +1,14 @@
 
 #landing-intro {
     position: absolute;
-    top: 50vh;
+    top: 45vh;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
     font-size: 3rem;
     font-weight: 500;
     font-family: 'Futura', monospace;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
   }
   #sub-intro {
     font-size: 20px;
@@ -18,7 +18,12 @@
   #my-name {
     font-size: 5.5rem;
     font-weight: 900;
+    text-transform: uppercase;
   }
+ .name {
+  color: #ff0033;
+ }
+
   @media (max-width: 768px) {
     #my-name {
       font-size: 4rem;
@@ -33,7 +38,7 @@
       font-size: 2rem;
       font-weight: 400;
       font-family: 'Futura', monospace;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
     }
     #sub-intro {
       font-size: 18px;
