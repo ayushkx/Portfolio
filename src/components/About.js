@@ -33,19 +33,19 @@ export default function About() {
                         </div>
                     </div>
                     <p align="center">
-                        <a className="contact-icon" href="https://github.com/ayushkx"  target="_blank" title="GitHub" >
+                        <a className="contact-icon" href="https://github.com/ayushkx"  target="_blank" rel="noopener noreferrer" title="GitHub" >
                         <img height="32" src="../assets/github.svg"  alt='github'/>
                         </a>
-                        <a className="contact-icon" href="https://www.linkedin.com/in/ayushkx/" target="_blank" title="LinkedIn">
+                        <a className="contact-icon" href="https://www.linkedin.com/in/ayushkx/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                         <img height="32" src="../assets/linkedin.svg" alt="linkedin" />
                         </a>
-                        <a className="contact-icon" href="mailto:ayushkushwaha855@gmail.com" target="_blank" title="Gmail">
+                        <a className="contact-icon" href="mailto:ayushkushwaha855@gmail.com" target="_blank" rel="noopener noreferrer" title="Gmail">
                         <img height="32" src="../assets/mail.svg" alt='gmail' />
                         </a>
-                        <a className="contact-icon" href="https://wa.me/919616580835" target="_blank" title="Whatsapp">
+                        <a className="contact-icon" href="https://wa.me/919616580835" target="_blank" rel="noopener noreferrer" title="Whatsapp">
                         <img height="32" src="../assets/whatsapp.svg" alt='whatsapp' />
                         </a>
-                        <a className="contact-icon" href="https://www.instagram.com/_ayushx._/" target="_blank" title="Instagram" >
+                        <a className="contact-icon" href="https://www.instagram.com/_ayushx._/" target="_blank" rel="noopener noreferrer" title="Instagram" >
                         <img height="32" src="../assets/instagram.svg"  alt='instagram'/>
                         </a>
                     </p>

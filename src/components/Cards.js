@@ -12,10 +12,10 @@ export default function Cards(props) {
                     <hr />
                     <p className="card-text">{props.description}</p>
                     </div>
-                    <a className="btn" href={`${props.repolink}`}  title="Repository" style={{margin: '10px 15px 10px 15px'}} >
+                    <a className="btn" href={`${props.repolink}`} target="_blank" rel="noopener noreferrer" title="Repository" style={{margin: '10px 15px 10px 15px'}} >
                         <img height="40" src="../assets/github.svg" alt="github"/>
                     </a>
-                    <a className="btn" href={`${props.deploylink}`}  title="Deploy link" style={{margin: '10px 15px 10px 15px'}} >
+                    <a className="btn" href={`${props.deploylink}`} target="_blank" rel="noopener noreferrer" title="Deploy link" style={{margin: '10px 15px 10px 15px'}} >
                         <img height="32" src="../assets/link.svg" alt="link"/>
                     </a>
                 </div>                     
