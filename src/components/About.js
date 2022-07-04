@@ -12,15 +12,16 @@ export default function About() {
                     <br />
                     <br />
                     <div className='container'>
-                        <div>
+                        <div align = "center">
                             <img
+                            
                             src="../assets/ayush.jpg"
                             alt="Ayush Kushwaha"
                             height="200px"
                             width="200px"
                             />
                         </div>
-                        <div>
+                        <div align = "center">
                             <span id="readme-md">
                             💬 student, self-taught coder
                             <br />📙 studies at JSS Academy Of Technical Education, Noida
@@ -32,6 +33,8 @@ export default function About() {
                             </span>
                         </div>
                     </div>
+                    <br/>
+                    <br/>
                     <p align="center">
                         <a className="contact-icon" href="https://github.com/ayushkx"  target="_blank" rel="noopener noreferrer" title="GitHub" >
                         <img height="32" src="../assets/github.svg"  alt='github'/>
