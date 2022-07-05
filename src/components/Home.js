@@ -3,7 +3,7 @@ import './home.css'
 
 export default function home() {
     return (
-        <div id='home'>
+        <div id='home' align ="center">
             <div id="landing-intro">
               <div >Hi, I'm</div>
               <div id="my-name"><span className='name'>Ayush</span> kushwaha</div>

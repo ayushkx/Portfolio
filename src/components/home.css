@@ -47,3 +47,27 @@
       width: 350px !important;
     }
   }
+
+  @media (max-width: 1024px) {
+    #my-name {
+      font-size: 4.5rem;
+      font-weight: 800;
+    }
+    #landing-intro {
+      position: relative;
+      top: 50vh;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #ffffff;
+      font-size: 2.5rem;
+      font-weight: 400;
+      font-family: 'Futura', monospace;
+      /* text-transform: uppercase; */
+    }
+    #sub-intro {
+      font-size: 18px;
+      font-weight: 100;
+      opacity: 0.75;
+      width: 350px !important;
+    }
+  }
