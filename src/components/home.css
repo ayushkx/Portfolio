@@ -1,6 +1,6 @@
 
 #landing-intro {
-    position: relative;
+    position: absolute;
     top: 45vh;
     left: 50%;
     transform: translate(-50%, -50%);
