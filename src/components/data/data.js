@@ -14,10 +14,10 @@ const projects =[
     },
     {
         id : 3,
-        "name":"ToDo list",
-        "description":"A todo list made using React.js",
-        "repolink":"https://github.com/ayushkx/To-do-list",
-        "deploylink":"https://lucent-bublanina-7f234e.netlify.app/"
+        "name":"Real Estate",
+        "description":"A Real Estate app made using React.js and Material UI",
+        "repolink":"https://github.com/ayushkx/Real_estate-",
+        "deploylink":"https://taupe-tanuki-d37e03.netlify.app/"
     },
     {
         id : 4,
