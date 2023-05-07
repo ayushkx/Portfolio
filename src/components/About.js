@@ -18,7 +18,7 @@ export default function About() {
                             src="../assets/ayush.jpg"
                             alt="Ayush Kushwaha"
                             height="200px"
-                            width="200px"
+                            width="300px"
                             />
                         </div>
                         <div align = "center">
